@@ -8,15 +8,13 @@ namespace Class02Demo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Dr. Favorite's ATM World Express!");
-            CashCash();
-            
+            InputHandler();            
         }
 
         static int CashCash()
         {
             try
             {
-
                 Console.WriteLine("What would you like to do. Enter a message: ");
                 Console.WriteLine("1. Check Balance");
                 Console.WriteLine("2. Withdraw");
