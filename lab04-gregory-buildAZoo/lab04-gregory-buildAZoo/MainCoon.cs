@@ -10,7 +10,7 @@ namespace lab04gregoryBuildAZoo
 
         public void HouseBroken ()
         {
-            Console.WriteLine("This majestic beast lives in your house.");
+            Console.WriteLine("The majestic Main Coon lives in your house.");
         }
     }
 }
