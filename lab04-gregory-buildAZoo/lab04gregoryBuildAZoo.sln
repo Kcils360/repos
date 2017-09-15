@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04-gregory-buildAZoo", "lab04-gregory-buildAZoo\lab04-gregory-buildAZoo.csproj", "{5985EDEE-36C6-42F0-A4EB-36A92A8CDAED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab04gregoryBuildAZoo", "lab04-gregory-buildAZoo\lab04gregoryBuildAZoo.csproj", "{5985EDEE-36C6-42F0-A4EB-36A92A8CDAED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
