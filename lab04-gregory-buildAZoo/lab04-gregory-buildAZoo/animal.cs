@@ -6,11 +6,8 @@ namespace lab04gregoryBuildAZoo
 {
     abstract class Animal
     {
-        public int Eyes ()
-        {
-            int eyes = 2;
-            return eyes;
-        }
+        abstract public int Eyes();
+
 
         public int Legs ()
         {

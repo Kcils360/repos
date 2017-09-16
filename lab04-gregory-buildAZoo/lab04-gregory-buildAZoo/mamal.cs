@@ -18,7 +18,17 @@ namespace lab04gregoryBuildAZoo
             return hair;
         }
 
-        public int Mammories { get; set; }
+        public bool Mammories
+        {
+            get
+            {
+                return true;
+            }
+            set
+            {
+
+            }
+        } 
 
     }
 }
