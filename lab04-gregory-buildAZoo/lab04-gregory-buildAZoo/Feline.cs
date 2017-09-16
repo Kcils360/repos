@@ -6,8 +6,12 @@ namespace lab04gregoryBuildAZoo
 {
     abstract class Feline : Mamal
     {
-        
-        /* predatory
-         * retractable claws */
+        abstract public void Predatory();
+
+        public bool RetractableClaws()
+        {
+            return true;
+        }
+
     }
 }

@@ -6,11 +6,8 @@ namespace lab04gregoryBuildAZoo
 {
     abstract class Avian : Animal
     {
-        public int Wings ()
-        {
-            int wings = 2;
-            return wings;
-        }
+        abstract public int Wings();
+
         
         public void Mouth()
         {
