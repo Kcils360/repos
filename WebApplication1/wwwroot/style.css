@@ -5,12 +5,12 @@
 
 h1 {
     font-size: 25px;
-    margin-top: 20px;
-    position: center;
+    margin-top: 90px;
+    margin-left: 33%;
     width: 33%;
-    border: solid;
-    border-color: #d35400;
+    border: solid 1px #e74c3c;
+    border-radius: 25px;
     text-align: center;
-
+    padding: 5px;
 }
 
