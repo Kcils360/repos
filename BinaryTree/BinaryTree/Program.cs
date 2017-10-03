@@ -6,19 +6,14 @@ namespace BinaryTree
     {
         static void Main(string[] args)
         {
-            Tree binaryTree = new Tree(1);
-            binaryTree.AddRight(2);
-            binaryTree.AddRight(3);
-            binaryTree.AddRight(4);
-            binaryTree.AddRight(5);
-            binaryTree.AddRight(6);
-            binaryTree.AddRight(7);
-            binaryTree.AddRight(8);
-            binaryTree.AddRight(9);
-
-
-
-
+            Leaf root = new Leaf(1);
+            Tree tree = new Tree(root);
+            root.right = new Leaf(2);
+            root.left = new Leaf(3);
+            root.right.right = new Leaf(4);
+            root.right.left = new Leaf(5);
+            root.left.left = new Leaf(6);
+            root.left.right = new Leaf(7);
 
         }
     }

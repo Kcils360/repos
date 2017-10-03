@@ -12,6 +12,8 @@ namespace BinaryTree
         public Leaf(int data)
         {
             Value = data;
+            left = null;
+            right = null;
         }
     }
 }
