@@ -15,6 +15,9 @@ namespace BinaryTree
             root.left.left = new Leaf(6);
             root.left.right = new Leaf(7);
 
+            string startString = "";
+            tree.PrintTree(root, ref startString);
+            Console.Read();
         }
     }
 }
